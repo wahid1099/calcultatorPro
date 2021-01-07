@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#03A9F4"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:text="My diary"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:padding="10dp"
+        android:gravity="start"
+        android:layout_marginTop="10dp"
+        android:lines="16"
+        android:background="#FAFAFA"
+        android:id="@+id/edittextid"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_marginTop="15dp"
+        android:id="@+id/savebtn"
+        android:textStyle="bold"/>
+
+
+</LinearLayout>

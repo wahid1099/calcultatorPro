@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".splashscreen"
+    android:orientation="vertical"
+    android:padding="20dp"
+
+    >
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Welcome to my app 2020"
+           android:textSize="30dp"
+           android:layout_marginTop="5dp"
+           android:textColor="@color/colorPrimaryDark"
+           android:gravity="center"
+           />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="523dp"
+        android:src="@drawable/splashh2" />
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:textSize="20dp"
+        android:text="Devloped By Abdul wahid"
+        android:textColor="#D20467FC"
+        />
+</LinearLayout>

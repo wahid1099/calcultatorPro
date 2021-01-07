@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#FFEB3B"
+    tools:context=".SingupActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Enter Your details for Log in"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+    <EditText
+
+        android:layout_marginTop="20dp"
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Email addresss"
+        android:inputType="textEmailAddress"
+        android:id="@+id/singupemailadrs"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+
+        />
+    <EditText
+        android:textColor="#ffffff"
+        android:layout_marginTop="20dp"
+        android:id="@+id/singuppasswrd"
+        android:inputType="textPassword"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Email Password"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/singupbtn"
+        android:text="Sing up"
+        android:background="#ff2546"
+        android:textColor="#ffff"
+        />
+<TextView
+    android:layout_marginTop="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Alredy user Sing In"
+    android:textAlignment="center"
+    android:id="@+id/singintxt"/>
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:id="@+id/singupprgrs"/>
+</LinearLayout>

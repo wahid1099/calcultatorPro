@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:text="World Cup 2019"
+        android:gravity="center"
+        android:textColor="#f00"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <HorizontalScrollView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn1"
+                android:text="World Cup 2019"
+                android:background="@drawable/butttn"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btn2"
+                android:text="World Cup 2019"
+                android:background="@drawable/butttn"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btn3"
+                android:text="World Cup 2019"
+                android:background="@drawable/butttn"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btn4"
+                android:text="World Cup 2019"
+                android:background="@drawable/butttn"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <ScrollView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:weightSum="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/btn7"
+                        android:background="@drawable/button"
+                        android:text="Live Score"
+                        android:textSize="20sp"
+                        android:textColor="#fff"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/btn8"
+                        android:text="Series"
+                        android:textSize="20sp"
+                        android:textColor="#fff"
+                        android:background="@drawable/button"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"  />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:weightSum="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_weight=".5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/btn9"
+                        android:text="Teams"
+                        android:textSize="20sp"
+                        android:textColor="#fff"
+                        android:background="@drawable/button"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_weight=".5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/btn10"
+                        android:text="Features"
+                        android:textSize="20sp"
+                        android:textColor="#fff"
+                        android:background="@drawable/button"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"  />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:weightSum="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/btn11"
+                        android:text="Live Cricket"
+                        android:textSize="20sp"
+                        android:textColor="#fff"
+                        android:background="@drawable/button"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/btn12"
+                        android:text="Fixture"
+                        android:textSize="20sp"
+                        android:textColor="#fff"
+                        android:background="@drawable/button"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"  />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:id="@+id/search"
+    android:title="Search"
+    app:showAsAction="always"
+    android:icon="@drawable/ic_baseline_search_24"
+    app:actionViewClass="android.widget.SearchView"
+    />
+
+    <item
+        android:id="@+id/setting_id"
+        android:title="setting"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_settings_24"
+        />
+
+    <item
+        android:id="@+id/aboutus_id"
+        android:title="About us"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/Contact_id"
+        android:title="Contact us"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_baseline_contact_support_24"
+        />
+
+</menu>
